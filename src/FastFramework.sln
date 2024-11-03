@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{57E71CDF-B76A-4FCE-A2FA-68555470F9A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{608BFA8B-8D0B-4E7A-B965-03B8F883315A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F30B6736-3DEF-4DF5-8949-8D3BE528D242}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B0AA7B1C-94BC-4B44-A5E5-5BAA54116A22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{C2900776-E06F-47A3-8E77-87D5BB0C954F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFramework.Core", "Core\FastFramework.Core\FastFramework.Core.csproj", "{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFramework.Shared", "Shared\FastFramework.Shared\FastFramework.Shared.csproj", "{7274EE6C-4EE6-4102-8635-BBE951F63F90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetGuideBlog", "DotNetGuideBlog", "{A0B2EB79-742E-4531-8A03-C438A131947F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuideBlogWebAPI", "Platforms\DotNetGuideBlog\DotNetGuideBlogWebAPI\DotNetGuideBlogWebAPI.csproj", "{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuideBlogModel", "Platforms\DotNetGuideBlog\DotNetGuideBlogModel\DotNetGuideBlogModel.csproj", "{9F198782-B1C4-44BC-91D1-69314AA83C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuideBlogDAL", "Platforms\DotNetGuideBlog\DotNetGuideBlogDAL\DotNetGuideBlogDAL.csproj", "{32B26F32-74AF-4C5D-878C-1C2BDECA0997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuideBlogBLL", "Platforms\DotNetGuideBlog\DotNetGuideBlogBLL\DotNetGuideBlogBLL.csproj", "{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGuideBlogRepository", "Platforms\DotNetGuideBlog\DotNetGuideBlogRepository\DotNetGuideBlogRepository.csproj", "{53C80A75-4A2F-4133-BADC-BD2C5CD25163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7274EE6C-4EE6-4102-8635-BBE951F63F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7274EE6C-4EE6-4102-8635-BBE951F63F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7274EE6C-4EE6-4102-8635-BBE951F63F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7274EE6C-4EE6-4102-8635-BBE951F63F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F198782-B1C4-44BC-91D1-69314AA83C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F198782-B1C4-44BC-91D1-69314AA83C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F198782-B1C4-44BC-91D1-69314AA83C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F198782-B1C4-44BC-91D1-69314AA83C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B26F32-74AF-4C5D-878C-1C2BDECA0997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B26F32-74AF-4C5D-878C-1C2BDECA0997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B26F32-74AF-4C5D-878C-1C2BDECA0997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B26F32-74AF-4C5D-878C-1C2BDECA0997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C80A75-4A2F-4133-BADC-BD2C5CD25163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C80A75-4A2F-4133-BADC-BD2C5CD25163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C80A75-4A2F-4133-BADC-BD2C5CD25163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C80A75-4A2F-4133-BADC-BD2C5CD25163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8BC99B8-CAD5-49E2-84D2-D196797BF2AD} = {608BFA8B-8D0B-4E7A-B965-03B8F883315A}
+		{7274EE6C-4EE6-4102-8635-BBE951F63F90} = {B0AA7B1C-94BC-4B44-A5E5-5BAA54116A22}
+		{A0B2EB79-742E-4531-8A03-C438A131947F} = {C2900776-E06F-47A3-8E77-87D5BB0C954F}
+		{5A8B71E7-B4F1-4DA2-BDD7-D1D7B35F49F4} = {A0B2EB79-742E-4531-8A03-C438A131947F}
+		{9F198782-B1C4-44BC-91D1-69314AA83C92} = {A0B2EB79-742E-4531-8A03-C438A131947F}
+		{32B26F32-74AF-4C5D-878C-1C2BDECA0997} = {A0B2EB79-742E-4531-8A03-C438A131947F}
+		{60EA4BFC-BDD6-4978-A7FB-CBAD854D7B00} = {A0B2EB79-742E-4531-8A03-C438A131947F}
+		{53C80A75-4A2F-4133-BADC-BD2C5CD25163} = {A0B2EB79-742E-4531-8A03-C438A131947F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCE792B3-7281-402A-A951-C73A955210FB}
+	EndGlobalSection
+EndGlobal
