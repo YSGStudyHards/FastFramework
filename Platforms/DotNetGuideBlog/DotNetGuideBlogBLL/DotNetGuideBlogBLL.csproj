@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetGuideBlogRepository\DotNetGuideBlogRepository.csproj" />
+    <ProjectReference Include="..\DotNetGuideBlogModel\DotNetGuideBlogModel.csproj" />
+  </ItemGroup>
+
 </Project>
